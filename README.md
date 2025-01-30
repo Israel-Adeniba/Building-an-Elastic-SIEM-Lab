@@ -36,8 +36,7 @@ This project simulates a Security Information and Event Management (SIEM) lab wi
 <img src="https://imgur.com/DfZZ6cS.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
 <br />
 <br />
-  5. Wait for the configuration to complete
-  6. Once the deployment is ready, click “continue.”: <br/>
+  5. Wait for the configuration to complete, once the deployment is ready, click “continue.”: <br/>
 <img src="https://imgur.com/CaDnIw3.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
 <img src="https://imgur.com/kOtMXUX.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
 
