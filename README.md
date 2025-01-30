@@ -57,29 +57,28 @@ Now we put the agent on Kali linux VM to collect and push audit logs and Telemet
 <img src="https://imgur.com/OLGet8Q.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
 <br />
 <br />
-  2. Select “Elastic Defend” and click on it to open the integration page. <br/>
+  2. Select “Elastic Defend” and click on it to open the integration page: <br/>
 <img src="https://imgur.com//lOC6Jxw.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
 <br />
 <br />
-  3. Click on “Add Elastic Defend”:  <br/>
+  3. Click on “Add Elastic Defend”: <br/>
 <img src="https://imgur.com/lFr5jHR.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
 <br />
 <br />
-  4. Click on “Install Elastic Defend” and f:  <br/>
+  4. Click on “Install Elastic Defend”: <br/>
 <img src="https://imgur.com/JVfXCWg.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
 <br />
 <br />
-  5. Follow the instructions provided on the integration page to install the agent on your Kali VM.Downloaded file:  <br/>
+  5. Follow the instructions provided on the integration page to install the agent on your Kali linux VM.Downloaded file: <br/>
+<img src="https://imgur.com/P3pxnxp.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
+<br />
+<br />
+  6. Paste the copied command into the Kali linux Power shell terminal (command line): <br/>
 <img src="https://imgur.com/P3pxnxp.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
 <br />
 <br />
 
 
-
-Downloaded file:  <br/>
-<img src="https://imgur.com/DrlaREc.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
-<br />
-<br />
 Download Kali-Linux and unzip (may take some time):  <br/>
 <img src="https://imgur.com/0ihBrGt.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
 <br />
