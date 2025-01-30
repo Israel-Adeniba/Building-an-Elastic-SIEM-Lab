@@ -48,14 +48,17 @@ For this setup, we'll be using Kali Linux with Oracle VirtualBox. Setup informat
 <br />
 
 <h2>Phase 3: Setting up the Agent to Collect Logs </h2>
-<br /> An agent is a software application installed on a device, like a server or endpoint, to gather and transmit data to a central system for analysis and monitoring. In Elastic SIEM, the agent collects and forwards security events from endpoints to the SIEM for further analysis. <br/>
+<br /> 
+An agent is a software application installed on a device, like a server or endpoint, to gather and transmit data to a central system for analysis and monitoring. In Elastic SIEM, the agent collects and forwards security events from endpoints to the SIEM for further analysis. <br/>
 
-Log in to your Elastic SIEM instance and navigate to the Integrations page by: clicking on the Kibana main menu bar at the top left, then selecting “Integrations” at the bottom.
-<img src="https://imgur.com/kOtMXUX.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
+Now we put the agent on Kali linux VM to collect and push audit logs and Telemetry to the Elastic SIEM:
+
+  1. Log in to your Elastic SIEM instance and navigate to the Integrations page by searching and selecting Integrations at the search bar
+<img src="https://imgur.com/OLGet8Q.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
 <br />
 <br />
-Dowload Windows 10 Enterprise: Select the ISO file <br/>
-<img src="https://imgur.com/i2MDWIB.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
+Select “Elastic Defend” and click on it to open the integration page. <br/>
+<img src="https://imgur.com//lOC6Jxw.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
 <br />
 <br />
 Select the corresponding ISO Enterprise download:  <br/>
