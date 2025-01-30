@@ -14,7 +14,7 @@ This project simulates a Security Information and Event Management (SIEM) lab wi
 
 <h2>Program walk-through:</h2>
 
-- Create a free Elastic account [https://cloud.elastic.co/registration] (14day free trial)
+- Create a free Elastic account (14day free trial)
 - Set up the Elastic Agent on Kali to collect and send logs to the SIEM.
 - Generate security events on the Kali VM.
 - Search for security events using queries in Elastic SIEM.
@@ -26,7 +26,8 @@ This project simulates a Security Information and Event Management (SIEM) lab wi
   <br/>
   
   Create a free Elastic account [https://cloud.elastic.co/registration] <br/>
-  Once you have an Elastic account, log in to the Elastic Cloud console at [https://cloud.elastic.co.]
+  Once you have an Elastic account, log in to the Elastic Cloud console at [https://cloud.elastic.co.] <br/>
+  Click on the “Create Deployment” button and select “Elasticsearch” as the deployment type:  
 <img src="https://imgur.com/jKZhUIs.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
 <br />
 <br />
