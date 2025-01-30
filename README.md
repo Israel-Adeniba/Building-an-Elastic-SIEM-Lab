@@ -15,7 +15,7 @@ This project simulates a Security Information and Event Management (SIEM) lab wi
 <h2>Program walk-through:</h2>
 
 - Create a free Elastic account (14day free trial)
-- Set up the Elastic Agent on Kali to collect and send logs to the SIEM.
+- Set up the Elastic Agent on Linux to collect and send logs to the SIEM.
 - Generate security events on the Kali VM.
 - Search for security events using queries in Elastic SIEM.
 - Build a dashboard to visualize security events.
@@ -42,10 +42,15 @@ This project simulates a Security Information and Event Management (SIEM) lab wi
 <img src="https://imgur.com/kOtMXUX.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
 
 <h2>Phase 2: Setting up Kali-linux </h2>
-[
-](https://github.com/Israel-Adeniba/Building-a-Cbersecurity-Lab/blob/main/README.md#building-a-cbersecurity-lab)<br />
+For this setup, we'll be using Kali Linux with Oracle VirtualBox. Setup information can be found from the previous repository:
+
+[https://github.com/Israel-Adeniba/Building-a-Cbersecurity-Lab/blob/main/README.md#building-a-cbersecurity-lab]<br />
 <br />
-Downloaded file:  <br/>
+
+<h2>Phase 3: Setting up the Agent to Collect Logs </h2>
+<br /> An agent is a software application installed on a device, like a server or endpoint, to gather and transmit data to a central system for analysis and monitoring. In Elastic SIEM, the agent collects and forwards security events from endpoints to the SIEM for further analysis. <br/>
+
+Log in to your Elastic SIEM instance and navigate to the Integrations page by: clicking on the Kibana main menu bar at the top left, then selecting “Integrations” at the bottom.
 <img src="https://imgur.com/kOtMXUX.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
 <br />
 <br />
