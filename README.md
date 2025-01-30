@@ -74,20 +74,23 @@ Now we put the agent on Kali linux VM to collect and push audit logs and Telemet
 <br />
 <br />
   6. Paste the copied command into the Kali linux Power shell terminal (command line): <br/>
-<img src="https://imgur.com/P3pxnxp.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
+<img src="https://imgur.com/Z9aEY32.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
+<br />
+<br />
+  7. After the agent is installed, which can take a few minutes, you’ll see a confirmation message: "Successfully enrolled the Elastic Agent" and “Elastic Agent has been successfully installed.” This will automatically start collecting and forwarding logs to your Elastic SIEM instance, although it might take a few minutes for the logs to appear in the SIEM.:  <br/>
+<img src="https://imgur.com/CTZy7DB.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
+<br />
+<br />
+  8. Two ways to verify that the agent has been installed correctly are by
+     -Running this command: "sudo systemctl status elastic-agent.service:: <br/>
+<img src="https://imgur.com/Lgwm1vk.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
+<br />
+<br />
+     -The Elastic SIEM website will post a confirmation of Agent enrolment: <br/>
+<img src="https://imgur.com/AGkFGcX.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
 <br />
 <br />
 
-
-Download Kali-Linux and unzip (may take some time):  <br/>
-<img src="https://imgur.com/0ihBrGt.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
-<br />
-<br />
-Downloaded file (7 Zip): <br/>
-<img src="https://imgur.com/87ER2eJ.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
-<br />
-<br />
- 
  # Setup and Installation
  <p align="center">
  <br/>
