@@ -21,26 +21,32 @@ This project simulates a Security Information and Event Management (SIEM) lab wi
 - Build a dashboard to visualize security events.
 - Configure alerts to detect security events.  Oracle VirtualBox is a type 2 software-based hypervisor
 
-<h2>Phase 1</h2>
+<h2>Phase 1: Create an Elastic account </h2>
 <p align="center"> 
   <br/>
   
-  Create a free Elastic account [https://cloud.elastic.co/registration] <br/>
-  Once you have an Elastic account, log in to the Elastic Cloud console at [https://cloud.elastic.co.] <br/>
-  Click on the “Create Deployment” button and select “Elasticsearch” as the deployment type:  
+  1. Create a free Elastic account [https://cloud.elastic.co/registration] <br/>
+  2. Once you have an Elastic account, log in to the Elastic Cloud console at [https://cloud.elastic.co.] <br/>
+  3. Click on the “Create Deployment” button and select “Elasticsearch” as the deployment type:  
 <img src="https://imgur.com/jKZhUIs.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
-<br />
-<br />
- Click on the “Create Deployment” button and select “Elasticsearch” as the deployment type:  <br/>
 <img src="https://imgur.com/LHbVGjb.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
 <br />
 <br />
-Select the ISO download 64-bit edition : <br/>
-<img src="https://imgur.com/NhooXIz.png height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
+  4. Choose a region and deployment size that fits your needs and click on “Create Deployment.”:  <br/>
+<img src="https://imgur.com/DfZZ6cS.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
 <br />
+<br />
+  5. Wait for the configuration to complete
+  6. Once the deployment is ready, click “continue.”: <br/>
+<img src="https://imgur.com/CaDnIw3.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
+<img src="https://imgur.com/kOtMXUX.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
+
+<h2>Phase 2: Setting up Kali-linux </h2>
+[
+](https://github.com/Israel-Adeniba/Building-a-Cbersecurity-Lab/blob/main/README.md#building-a-cbersecurity-lab)<br />
 <br />
 Downloaded file:  <br/>
-<img src="https://imgur.com/Nv8WwV6.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
+<img src="https://imgur.com/kOtMXUX.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
 <br />
 <br />
 Dowload Windows 10 Enterprise: Select the ISO file <br/>
