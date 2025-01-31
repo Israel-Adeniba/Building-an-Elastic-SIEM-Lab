@@ -92,9 +92,17 @@ Now we put the agent on Kali linux VM to collect and push audit logs and Telemet
 
 <h2>Phase 4: Generating Security Events on the Kali linux Virtual Machine </h2>
 <br /> 
-We will begin querying and analyzing the logs in the SIEM now that we have forwarded data from the Kali VM to the SIEM  <br/>
+To verify that the agent is working correctly, you can generate some security-related events on your Kali VM. To do this, we will use Nmap. <br /> 
+Nmap (Network Mapper) is a free and open-source utility that scans networks to identify host, services, and vulnerabilities. It is designed to discover hosts and services on a computer network, thus creating a “map” of the network.  <br />
+Nmap can be used to scan hosts for open ports, determine the operating system and software running on the target system, and gather other information about the network.<br/>
+Follow these steps;
 
- 
+
+
+
+<h2>Phase 5: Generating Security Events on the Kali linux Virtual Machine </h2>
+<br /> 
+We will begin querying and analyzing the logs in the SIEM now that we have forwarded data from the Kali VM to the SIEM  <br/> 
 <br />:  <br/>
 <
 </p>
