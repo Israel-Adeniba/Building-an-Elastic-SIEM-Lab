@@ -21,6 +21,7 @@ This project simulates a Security Information and Event Management (SIEM) lab wi
 - Build a dashboard to visualize security events.
 - Configure alerts to detect security events.  Oracle VirtualBox is a type 2 software-based hypervisor
 
+
 <h2>Phase 1: Create an Elastic account </h2>
 <p align="center"> 
   <br/>
@@ -40,11 +41,13 @@ This project simulates a Security Information and Event Management (SIEM) lab wi
 <img src="https://imgur.com/CaDnIw3.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
 <img src="https://imgur.com/kOtMXUX.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
 
+
 <h2>Phase 2: Setting up Kali-linux </h2>
 For this setup, we'll be using Kali Linux with Oracle VirtualBox. Setup information can be found from the previous repository:
 
 [https://github.com/Israel-Adeniba/Building-a-Cbersecurity-Lab/blob/main/README.md#building-a-cbersecurity-lab]<br />
 <br />
+
 
 <h2>Phase 3: Setting up the Agent to Collect Logs </h2>
 <br /> 
@@ -90,6 +93,7 @@ Now we put the agent on Kali linux VM to collect and push audit logs and Telemet
 <br />
 <br />
 
+
 <h2>Phase 4: Generating Security Events on the Kali linux Virtual Machine </h2>
 <br /> 
 To verify that the agent is working correctly, you can generate some security-related events on your Kali VM. To do this, we will use Nmap. <br /> 
@@ -108,8 +112,6 @@ Nmap can be used to scan hosts for open ports, determine the operating system an
  <img src="https://imgur.com/u6Ko9tr.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
 <br />
 <br />
-
-  
 
 
 <h2>Phase 5: Generating Security Events on the Kali linux Virtual Machine </h2>
