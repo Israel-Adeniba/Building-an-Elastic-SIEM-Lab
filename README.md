@@ -116,9 +116,18 @@ Nmap can be used to scan hosts for open ports, determine the operating system an
 
 <h2>Phase 5: Querying for Security Events in the Elastic SIEM </h2>
 <br /> 
-We will begin querying and analyzing the logs in the SIEM now that we have forwarded data from the Kali VM to the SIEM  
-<br/> 
-<br />:  <br/>
+We will begin querying and analyzing the logs in the SIEM now that we have forwarded data from the Kali VM to the SIEM  <br/>
+  1. Inside your Elastic Deployment, click on the menu icon at the top-left with the three horizontal lines and then click on the “Logs” tab under “Observability” to view the logs from the Kali VM.
+<img src="https://imgur.com/u6Ko9tr.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/><br/> 
+<br/>
+
+
+
+
+
+Inside your Elastic Deployment, click on the menu icon at the top-left with the three horizontal lines and then click on the “Logs” tab under “Observability” to view the logs from the Kali VM.
+
+:  <br/>
 <
 </p>
 
