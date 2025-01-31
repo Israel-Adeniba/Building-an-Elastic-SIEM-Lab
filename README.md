@@ -114,9 +114,10 @@ Nmap can be used to scan hosts for open ports, determine the operating system an
 <br />
 
 
-<h2>Phase 5: Generating Security Events on the Kali linux Virtual Machine </h2>
+<h2>Phase 5: Querying for Security Events in the Elastic SIEM </h2>
 <br /> 
-We will begin querying and analyzing the logs in the SIEM now that we have forwarded data from the Kali VM to the SIEM  <br/> 
+We will begin querying and analyzing the logs in the SIEM now that we have forwarded data from the Kali VM to the SIEM  
+<br/> 
 <br />:  <br/>
 <
 </p>
