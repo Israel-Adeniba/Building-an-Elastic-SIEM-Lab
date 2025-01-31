@@ -94,13 +94,22 @@ Now we put the agent on Kali linux VM to collect and push audit logs and Telemet
 <br /> 
 To verify that the agent is working correctly, you can generate some security-related events on your Kali VM. To do this, we will use Nmap. <br /> 
 Nmap (Network Mapper) is a free and open-source utility that scans networks to identify host, services, and vulnerabilities. It is designed to discover hosts and services on a computer network, thus creating a “map” of the network.  <br />
-Nmap can be used to scan hosts for open ports, determine the operating system and software running on the target system, and gather other information about the network.<br/>
-Follow these steps; <br />    
-    - If you’re not specifically using Kali linux, install Nmap on the Linux Virtual Machine.
+Nmap can be used to scan hosts for open ports, determine the operating system and software running on the target system, and gather other information about the network.<br>
+                                                                                                               Follow these steps; <br />    
+  1.  If you’re not specifically using Kali linux, install Nmap on the Linux Virtual Machine.
     Open a new Terminal and run this command to install it: sudo apt-get install nmap. 
     Nmap already comes preinstalled in Kali. <br />    
-    - Run a scan on Kali machine by running the command: sudo nmap <vm-ip>. 
+  2.  Run a scan on Kali machine by running the command: sudo nmap <vm-ip>. 
      You can also run a scan of your host machine if you place your Kali VM on a “bridged” network.
+<img src="https://imgur.com/rK9Vy1b.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
+<br />
+<br />
+  3.  Nmap scan generates several security events, such as the detection of open ports and the identification of services running on those ports. Let run a few more Nmap scans (“nmap -sS <ip address>”, “nmap -sT <ip address>”, “nmap -p- <ip address>”etc..”) and see results
+ <img src="https://imgur.com/u6Ko9tr.png" height="80%" width="80%" alt="Building a Cybersecurity Lab Steps"/>
+<br />
+<br />
+
+  
 
 
 <h2>Phase 5: Generating Security Events on the Kali linux Virtual Machine </h2>
