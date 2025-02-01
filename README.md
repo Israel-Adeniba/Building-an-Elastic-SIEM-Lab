@@ -128,8 +128,9 @@ We will begin querying and analyzing the logs in the SIEM now that we have forwa
 Inside your Elastic Deployment, click on the menu icon at the top-left with the three horizontal lines and then click on the “Logs” tab under “Observability” to view the logs from the Kali VM.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
-UNDER CONSTRUCTION
-:  <br/>
+<p align="center"><<<<<<<<<< UNDER CONSTRUCTION >>>>>>>>>>
+
+ :  <br/>
 <
 </p>
 
