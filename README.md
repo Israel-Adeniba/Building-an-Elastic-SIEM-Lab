@@ -1,5 +1,6 @@
 # Building-an-Elastic-SIEM-Lab
-# Obective
+
+## Obective
 This project simulates a Security Information and Event Management (SIEM) lab with Elastic SIEM and a Kali Linux VM for security monitoring. Logs will be forwarded using Elastic Beats, and Nmap scans will generate security events. Logs are queried and analyzed in the Elastic web interface, visualized in a dashboard, and monitored with an alert to detect specific security events.
  
 <h2>Languages and Utilities Used</h2>
