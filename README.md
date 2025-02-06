@@ -9,10 +9,6 @@ This project simulates a Security Information and Event Management (SIEM) lab wi
 - <b>Kali Linux</b>
 - <b>Elastic</b>
 
-<h2>Environments Used </h2>
-
-- <b>Windows 10 Enterprise</b>  
-
 <h2>Program walk-through:</h2>
 
 - Create a free Elastic account (14day free trial)
